@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+#nav a {
+    margin-right: 20px;
+}
+#nav a.topimage {
+    width: 20px;
+    height: 20 px;
+    background: red;
+    border-radius: 50%;
+}
+#logo {
+    text-align: center;
+}
+
+#searchbarcontainer {
+    text-align: center;
+    margin-top: 20px;
+}
+#searchbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 500px;
+    border-radius:15;
+    border: 1px solid #c4c4c4; 
+}
+ #buttons {
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+}
+.button {
+    margin-bottom: 10px;
+    margin-right: 10 px;
+    padding:5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    background: rgb (231, 231, 231);
+}
